@@ -4,6 +4,8 @@ This repository contains examples of generalized classes that I have used across
 They have been refactored and adjusted to be more generic and suitable for public sharing, and are intended for read-only purposes.
 The following technologies are demostrated:
 
+### Technologies & Patterns Demonstrated
+
   - Reactive programming
   - GraphQL
   - Java Persistence API
