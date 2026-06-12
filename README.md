@@ -1,8 +1,8 @@
 ## Overview
 
-This repository contains examples of generalized classes that I have used across multiple enterprise projects. 
-They have been refactored and adjusted to be more generic and suitable for public sharing, and are intended for read-only purposes.
-The following technologies are demostrated:
+This repository showcases generalized classes and architectural patterns that I have developed and 
+applied across multiple large-scale enterprise projects. All examples have been refactored, and adapted into generic, 
+reusable implementations suitable for public sharing.
 
 ### Technologies & Patterns Demonstrated
 
@@ -11,20 +11,12 @@ The following technologies are demostrated:
   - Java Persistence API
   - Liquibase scripts
   - Hibernate
-  - Data Transfer Objects
+  - Data Transfer Objects (DTOs)
   - Java Persistence API
-  - Spring Framework
-  - Kafka
-
-- **Reactive Programming** (Project Reactor)
-- **GraphQL** with Spring Boot
-- **Java Persistence API (JPA)** & **Hibernate**
-- **Liquibase** database migrations
-- **Data Transfer Objects (DTOs)** and mapping strategies
-- **Spring Framework** (Core, Boot, Data, Security)
-- **Apache Kafka** for event-driven architecture
+  - Spring Framework (Core, Boot, Data, Secutiry)
+  - Apache Kafka
 
 ## Key Highlights
 
-- Enterprise-grade patterns used in high-load corporate web platforms
+- Enterprise-grade solutions used in high-load corporate web platforms
 - Focus on clean architecture, scalability, and maintainability
