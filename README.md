@@ -6,10 +6,10 @@ reusable implementations suitable for public sharing.
 
 ### Technologies & Patterns Demonstrated
 
-  - Reactive programming
+  - Reactive Programming
   - GraphQL
-  - Java Persistence API
-  - Liquibase scripts
+  - Java Persistence API (JPA)
+  - Liquibase database migrations
   - Hibernate
   - Data Transfer Objects (DTOs)
   - Java Persistence API
