@@ -16,6 +16,14 @@ The following technologies are demostrated:
   - Spring Framework
   - Kafka
 
+- **Reactive Programming** (Project Reactor)
+- **GraphQL** with Spring Boot
+- **Java Persistence API (JPA)** & **Hibernate**
+- **Liquibase** database migrations
+- **Data Transfer Objects (DTOs)** and mapping strategies
+- **Spring Framework** (Core, Boot, Data, Security)
+- **Apache Kafka** for event-driven architecture
+
 ## Key Highlights
 
 - Enterprise-grade patterns used in high-load corporate web platforms
