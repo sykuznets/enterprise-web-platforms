@@ -18,4 +18,3 @@ The following technologies are demostrated:
 
 - Enterprise-grade patterns used in high-load corporate web platforms
 - Focus on clean architecture, scalability, and maintainability
-- 
