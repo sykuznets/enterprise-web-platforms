@@ -14,8 +14,8 @@ The following technologies are demostrated:
   - Spring Framework
   - Kafka
 
-### Key Highlights
+## Key Highlights
 
 - Enterprise-grade patterns used in high-load corporate web platforms
 - Focus on clean architecture, scalability, and maintainability
-- Production-proven solutions from large-scale financial and industrial systems
+- 
