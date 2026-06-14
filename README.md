@@ -9,7 +9,7 @@ reusable implementations suitable for public sharing.
   - Reactive Programming
   - GraphQL
   - Java Persistence API (JPA)
-  - Liquibase database migrations
+  - **Liquibase** (database schema migrations)
   - Hibernate
   - Data Transfer Objects (DTOs)
   - Java Persistence API
