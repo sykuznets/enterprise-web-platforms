@@ -18,5 +18,5 @@ reusable implementations suitable for public sharing.
 
 ## Key Highlights
 
-- Enterprise-grade solutions used in high-load corporate web platforms
+- Enterprise solutions used in high-load corporate web platforms
 - Focus on clean architecture, scalability, and maintainability
