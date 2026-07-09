@@ -23,12 +23,8 @@ public class EntityMetadataRepositoryImpl implements EntityMetadataRepository {
             e.name AS entity_name,
             c.name AS category_name
         FROM entity e
-        JOIN entity_category ec
-            ON ec.entity_id = e.id
-           AND ec.active = TRUE
-        JOIN category c
-            ON c.id = ec.category_id
-           AND c.active = TRUE
+        JOIN entity_category ec ON ec.entity_id = e.id AND ec.active = TRUE
+        JOIN category c ON c.id = ec.category_id AND c.active = TRUE
         WHERE e.id IN (:entityIds)
         """;
 
