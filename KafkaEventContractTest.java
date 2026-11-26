@@ -50,7 +50,6 @@ public class KafkaEventContractTest {
 
     @EnableConfigurationProperties(EventKafkaProperties.class)
     static class TestConfiguration {}
-
     @Autowired
     private EventPublisher publisher;
     @Autowired
@@ -123,9 +122,10 @@ public class KafkaEventContractTest {
                     """
                 )
             );
+            
             assertThat(processed.contextCode()).isEqualTo("DEMO_SOURCE");
             assertThat(processed.status()).isEqualTo("RECEIVED");
-
+            
             assertThat(parsed.eventId()).isEqualTo(eventId);
             assertThat(parsed.sourceCode()).isEqualTo("DEMO_SOURCE");
             assertThat(parsed.typeCode()).isEqualTo("ENTITY_UPDATED");
