@@ -53,7 +53,6 @@ public class KafkaEventContractTest {
 
     @Autowired
     private EventPublisher publisher;
-
     @Autowired
     private EmbeddedKafkaBroker embeddedKafkaBroker;
 
@@ -168,9 +167,7 @@ public class KafkaEventContractTest {
         );
 
         String sourceCode = readNonBlankText(payload, "sourceCode");
-        String typeCode = payload.has("typeCode")
-            ? readNonBlankText(payload, "typeCode")
-            : null;
+        String typeCode = payload.has("typeCode") ? readNonBlankText(payload, "typeCode") : null;
 
         return new DecodedEvent(
             eventId,
@@ -201,7 +198,6 @@ public class KafkaEventContractTest {
     ) {
         Set<String> actual = new HashSet<>();
         object.fieldNames().forEachRemaining(actual::add);
-
         assertThat(actual).containsAll(required);
         assertThat(allowed).containsAll(actual);
     }
@@ -225,13 +221,8 @@ public class KafkaEventContractTest {
             .isNotNull();
 
         JsonNode context = event.data().path("contextCode");
-        String contextCode = context.isTextual() && !context.asText().isBlank()
-            ? context.asText().trim()
-            : source.code();
-
-        String typeCode = event.typeCode() != null
-            ? event.typeCode()
-            : source.typeCode();
+        String contextCode = context.isTextual() && !context.asText().isBlank() ? context.asText().trim() : source.code();
+        String typeCode = event.typeCode() != null ? event.typeCode() : source.typeCode();
 
         return new ProcessedEvent(
             record.topic(),
